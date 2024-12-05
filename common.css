@@ -1,0 +1,47 @@
+html{
+  --theme-color:#42b983;
+}
+r{
+    color:red;
+    font-weight:700;
+}
+y{
+  color:orange;
+  font-weight:700;
+}
+t{
+  color:#1E7DC2;
+  font-weight:700;
+}
+g{
+  color:#42b983;
+  font-weight:700;
+}
+o{
+  color:#7f8c8d;
+  font-weight:700;
+}
+.underline{
+  text-decoration: underline;
+}
+.line-through{
+  text-decoration: line-through;
+}
+.sidebar ul li b a{
+  font-weight:700!important;
+  font-size:15px;
+}
+/* 覆盖分页导航样式 */
+.pagination-item-label span{
+  color: currentColor;
+}
+
+summary{
+  user-select: none;
+  cursor: pointer;
+}
+summary:hover{
+  box-shadow: -1px 1px 4px #ccc;
+  transition: box-shadow 0.1s;
+}
+
